@@ -1,0 +1,38 @@
+
+Git is a version control system that allows developers to track changes in their code. GitHub is a web-based hosting service for git repositories. 
+you can use git without Github, but you cannot use GitHub without Git.
+In simple terms, you can use git without Github, but you cannot use GitHub without Git.
+
+Git commands:
+Git add .
+Moves changes from the working directory to the staging area. This gives you the opportunity to prepare a snapshot before committing it to the official history.
+
+Git clone<link>
+Creates a copy of an existing Git repository. Cloning is the most common way for developers to obtain a working copy of a central repository.
+
+Git help
+If you are having trouble remembering commands or options for commands.  
+
+Git init
+Initialize a new Git repository in the current directory.
+
+git commit -m "[commit_message]"
+ Commits the changes in the staging area with a descriptive message.
+
+Git push origin<branch name>
+ Pushes commits from your local repository to the remote repository.
+
+Git pull origin<branch name>
+Fetches changes from the remote repository and merges them into the current branch.
+
+Git branch
+Lists all local branches in the repository.
+Git branch <new branch name>
+
+Git checkout
+Switch branches or restore working tree files.
+git checkout <branch_name>
+
+Git merge
+Join two or more development histories together.
+git merge <branch_name>
